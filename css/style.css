@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0D0D1C;
+    color: #EBDCEF;
+    font-family: "Figtree", serif;
+}
+
+a{
+    text-decoration: none;  /* quitar subrayado */ 
+}
+
+header{
+    width: 1200px;
+    height: 96px;
+    margin: auto;
+    background-color: #14132A;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    header nav a{
+        margin: 12px;
+        font-size: 24px;
+        color: #EBDCEF;
+    }
+
+main{
+    width: 1200px;
+    min-height: 760px;
+    margin: auto;
+}
+
+/* sección hero-banner */
+    #hero{
+        height: 448px;
+        background-image: url(../imgs/hero-banner.jpg);
+        display: flex;
+        align-items: center;
+    }
+
+        #hero h1{
+            width: 520px;
+            padding: 8px 24px;
+            margin-left: 72px;
+            background-color: hsla(240, 37%, 8%, 50%);
+            font-size: 32px;
+        }
+
+/* sección ejemplos */
+
+    #ejemplos{
+        margin-top: 56px;
+        padding: 24px 0px;
+        background-color: #101023;
+        display: flex;
+        justify-content: space-between;
+    }
+        #ejemplos article{
+            width: 376px;
+            padding: 12px;
+            background-color: #06060E;
+            color: #fff;
+        }
+        #ejemplos h2{
+            margin: 16px 0px;
+            font-weight: 600;
+        }
+
+/* sección soluciones */
+    #soluciones{
+        margin-top: 56px;
+    }
+
+        #soluciones article{
+            margin-top: 56px;
+            display: flex;
+            align-items: center;
+        }
+            #soluciones article div{
+                padding-left: 80px;
+            }
+                #soluciones article div h2{
+                    font-weight: 600;
+                    margin-bottom: 24px;
+                }
+            #soluciones article div a{
+                color: #fff;
+            }    
+
+footer{
+    width: 1200px;
+    height: 148px;
+    margin: 56px auto 0px auto;
+    padding-left: 16px;
+    background-color: #06060E;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    footer a img{
+        height: 64px;
+    }
+
+    footer nav a img{
+        height: 32px;
+        margin: 16px;
+    }
