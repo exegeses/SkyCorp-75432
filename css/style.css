@@ -95,6 +95,15 @@ main{
                 color: #fff;
             }    
 
+    #recursos{
+        margin: 80px;
+        padding: 40px;
+        border: 1px solid hsla(287, 50%, 60%, 50%);
+        border-left: 16px solid hsl(287, 50%, 60%);
+        border-radius: 16px;
+    }
+
+
 footer{
     width: 1200px;
     height: 148px;
